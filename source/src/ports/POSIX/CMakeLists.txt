@@ -48,8 +48,8 @@ if( OPENER_INSTALL_AS_LIB )
 endif()
 
 if( NOT OpENer_TESTS)
-  add_executable(OpENer main.c)
-  target_link_libraries( OpENer PLATFORM_GENERIC ${OpENer_PLATFORM}PLATFORM ${PLATFORM_SPEC_LIBS} CIP Utils SAMPLE_APP ENET_ENCAP NVDATA rt cap pthread)
+  # add_executable(OpENer main.c)
+  # target_link_libraries( OpENer PLATFORM_GENERIC ${OpENer_PLATFORM}PLATFORM ${PLATFORM_SPEC_LIBS} CIP Utils SAMPLE_APP ENET_ENCAP NVDATA rt cap pthread)
 endif()
 
 # Add additional CIP Objects
